@@ -1,0 +1,9 @@
+.styling{
+    box-shadow: rgb(39, 217, 237);
+    transform: translateX(20px);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
