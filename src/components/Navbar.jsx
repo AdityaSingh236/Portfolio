@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import photo from '../Assets/photo.avif';
+import photo from '../Assets/Aadi.png';
 import { RiMenuLine } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { NavBarLinks } from '../Data/NavBarLinks';
