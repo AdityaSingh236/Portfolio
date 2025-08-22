@@ -22,15 +22,15 @@ const Home = () => {
         className='mt-10 md:mt-10 rounded-full w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80'
       />
      
-      <div className='relative flex items-center gap-x-2 text-center'>
+      <div className='relative flex flex-col items-center gap-x-2 text-center mt-4 md:mt-6'>
         <h1 className='font-bold text-xl md:text-2xl text-richblack-50'>
           I'm Aditya Singh and I'm a
         </h1>
 
-        <div className='relative'>
+        <div className='relative mt-2'>
           <ReactTyped
             className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 
-              font-bold text-xl md:text-2xl absolute top-0 left-0 translate-y-[-15px]'
+              font-bold text-xl md:text-2xl'
             strings={["Developer", "Programmer", "Coder"]}
             typeSpeed={40}
             backSpeed={50}
@@ -38,6 +38,7 @@ const Home = () => {
           />
         </div>
       </div>
+
 
       <p className='text-sm sm:text-base md:text-lg text-center text-richblack-200 font-inter font-medium max-w-xl mx-auto'>
         A Passionate MERN Stack Developer from India, eager to start my journey in the tech industry.
